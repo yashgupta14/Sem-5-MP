@@ -1,0 +1,258 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.loginpage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:6:5-49:19
+15        android:allowBackup="true"
+15-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:7:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/c136157c61a248781c6b1e70e40a87bd/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:8:9-65
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:fullBackupContent="@xml/backup_rules"
+20-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:9:9-54
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:11:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.LoginPage" >
+26-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:14:9-47
+27        <activity
+27-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:16:9-18:40
+28            android:name="com.example.loginpage.Question2"
+28-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:17:13-38
+29            android:exported="false" />
+29-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:18:13-37
+30        <activity
+30-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:19:9-21:40
+31            android:name="com.example.loginpage.activity"
+31-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:20:13-37
+32            android:exported="false" />
+32-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:21:13-37
+33        <activity
+33-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:22:9-24:40
+34            android:name="com.example.loginpage.Questions"
+34-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:23:13-38
+35            android:exported="false" />
+35-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:24:13-37
+36        <activity
+36-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:25:9-27:40
+37            android:name="com.example.loginpage.Login"
+37-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:26:13-34
+38            android:exported="false" />
+38-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:27:13-37
+39        <activity
+39-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:28:9-30:40
+40            android:name="com.example.loginpage.Register"
+40-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:29:13-37
+41            android:exported="false" />
+41-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:30:13-37
+42        <activity
+42-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:31:9-39:20
+43            android:name="com.example.loginpage.Splashscreen"
+43-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:32:13-41
+44            android:exported="true" >
+44-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:33:13-36
+45            <intent-filter>
+45-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:34:13-38:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:35:17-69
+46-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:35:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:37:17-77
+48-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:37:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:40:9-48:20
+52            android:name="com.example.loginpage.MainActivity"
+52-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:41:13-41
+53            android:exported="true" >
+53-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:42:13-36
+54            <intent-filter>
+54-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:34:13-38:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:35:17-69
+55-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:35:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:37:17-77
+57-->/Users/yashgupta/Desktop/FAS/app/src/main/AndroidManifest.xml:37:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+61            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+61-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+62            android:excludeFromRecents="true"
+62-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+63            android:exported="true"
+63-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+64            android:launchMode="singleTask"
+64-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+65-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+66            <intent-filter>
+66-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+67                <action android:name="android.intent.action.VIEW" />
+67-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+67-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+69-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+70                <category android:name="android.intent.category.BROWSABLE" />
+70-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+70-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+71
+72                <data
+72-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+73                    android:host="firebase.auth"
+73-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+74                    android:path="/"
+74-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+75                    android:scheme="genericidp" />
+75-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+79            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+79-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+80            android:excludeFromRecents="true"
+80-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+81            android:exported="true"
+81-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+82            android:launchMode="singleTask"
+82-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+83-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+84            <intent-filter>
+84-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+85                <action android:name="android.intent.action.VIEW" />
+85-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+85-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+87-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+88                <category android:name="android.intent.category.BROWSABLE" />
+88-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+88-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+89
+90                <data
+90-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+91                    android:host="firebase.auth"
+91-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+92                    android:path="/"
+92-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+93                    android:scheme="recaptcha" />
+93-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+94            </intent-filter>
+95        </activity>
+96
+97        <service
+97-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+98            android:name="com.google.firebase.components.ComponentDiscoveryService"
+98-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+100            android:exported="false" >
+100-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+101            <meta-data
+101-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+102                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+102-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-auth:21.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/338823cee4ffc17881e6d2171a350317/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-firestore:24.4.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/ddd917392720c15d9edb40e517527b63/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+105                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+105-->[com.google.firebase:firebase-firestore:24.4.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/ddd917392720c15d9edb40e517527b63/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-firestore:24.4.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/ddd917392720c15d9edb40e517527b63/transformed/firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-storage:20.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d6f8a68e3dd3f9b4cbea3599c9e72020/transformed/firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+108                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+108-->[com.google.firebase:firebase-storage:20.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d6f8a68e3dd3f9b4cbea3599c9e72020/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-storage:20.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d6f8a68e3dd3f9b4cbea3599c9e72020/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+110        </service>
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+114            android:authorities="com.example.loginpage.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+116            android:exported="false"
+116-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+117            android:initOrder="100" />
+117-->[com.google.firebase:firebase-common:20.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/4107e6ee4362c95842d152185efa6248/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.0.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/aaa5a4d1372078338aab0bc23bc71425/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.0.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/aaa5a4d1372078338aab0bc23bc71425/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.0.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/aaa5a4d1372078338aab0bc23bc71425/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.0.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/aaa5a4d1372078338aab0bc23bc71425/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/9bd0edb671f66b2c35dc2991b4e9cee9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/9bd0edb671f66b2c35dc2991b4e9cee9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.1.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/9bd0edb671f66b2c35dc2991b4e9cee9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+130            android:authorities="com.example.loginpage.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.2.0] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/d53c01ab32c9c72a87fd3476aafd898f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/fd9c9e7a8df2365ee7484390ca4789ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/fd9c9e7a8df2365ee7484390ca4789ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/yashgupta/Documents/MP(app)/app/caches/transforms-3/fd9c9e7a8df2365ee7484390ca4789ff/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+138        </provider>
+139    </application>
+140
+141</manifest>

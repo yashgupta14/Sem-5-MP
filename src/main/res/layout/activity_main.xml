@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_r1"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback"
+        android:text="STUDENT FEEDBACK FORM"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="times"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="SAD (Teacher Name)"
+            android:textStyle="bold"
+            android:fontFamily="times"
+            android:textColor="@color/black"
+            android:onClick="checkbutton"
+            android:checked="true"
+            android:layout_marginTop="30dp"
+            />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="DSA (Teacher Name)"
+            android:textStyle="bold"
+            android:fontFamily="times"
+            android:textColor="@color/black"
+            android:onClick="checkbutton"
+            />
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="SAP (Teacher Name)"
+            android:textStyle="bold"
+            android:fontFamily="times"
+            android:textColor="@color/black"
+            android:onClick="checkbutton"
+            />
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="TOC (Teacher Name)"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="times"
+            android:onClick="checkbutton"
+            />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="DAA (Teacher Name)"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="times"
+            android:onClick="checkbutton"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/radiogroup"
+        android:layout_marginTop="27dp"
+        android:fontFamily="times"
+        android:text="Selected Subject: "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/apply_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_selected"
+        android:layout_marginTop="37dp"
+        android:fontFamily="times"
+        android:text="done"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/continue_button"
+        android:layout_below="@+id/apply_button"
+        android:layout_centerInParent="true"
+        android:fontFamily="times"
+        android:text="continue"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

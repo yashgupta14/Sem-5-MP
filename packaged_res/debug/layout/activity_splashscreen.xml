@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg01"
+    tools:context=".Splashscreen">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="350dp"
+        android:layout_height="190dp"
+        android:paddingLeft="50dp"
+        android:src="@drawable/mit"
+
+        />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="10dp"
+        android:text="Feedback Analysis"
+        android:fontFamily="times"
+        android:textColor="@color/white"
+        android:textScaleX="1"
+        android:paddingLeft="4dp"
+        android:textSize="36dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display"
+        android:text="System"
+        android:fontFamily="times"
+        android:textColor="@color/white"
+        android:textScaleX="1"
+        android:paddingLeft="4dp"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="140dp"
+
+        />
+</RelativeLayout>
